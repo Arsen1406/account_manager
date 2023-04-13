@@ -53,7 +53,6 @@ export default function Auth() {
                     <div className='contentEdit'><label>Пароль:</label><input type="text" placeholder="Пароль" name="password" /></div>
                     <button className='button' type="submit">Войти</button>
                     <button className='button' ><a className='buttonA' href='/register'>Зарегистрироватья</a></button>
-                    
                   </form>
                 </div>
             </div>
