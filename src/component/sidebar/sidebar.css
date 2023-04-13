@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f6fb;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #b3d9f9;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+  }
+  
+  .content {
+    padding-left: 280px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  
+.iconSidebar{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a95ed;
+}
+
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #f5f6fb;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+  }
+  
+  .logo:before {
+    padding-right: 8px;
+  }
+  
+  .menu__logo {
+    padding-top: 8px;
+    background-color: #2a95ed;
+    padding-left: 75px;
+    margin-bottom: 30px;
+  }
+  
+
+  .menu__link,
+  .admin__link {
+    padding-left: 5px;
+    text-decoration: none;
+  }
+  
+  .link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    text-decoration: none;
+  }
+  
+  .link > img {
+    width: 25px;
+    margin-right: 20px;
+  }
+  
+  .link > span {
+    font-family: "Karla", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #2a95ed;
+  }
+  
+  .link:hover {
+    background-color: rgba(255, 255, 255, 0.527);
+  }
+  
+  .link:hover:before {
+    display: flex;
+  }
+  
+  .link:before {
+    content: "";
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .menu__admin {
+    margin-top: auto;
+    padding-bottom: 40px;
+  }
+
+
+.userLogin{
+    margin-top: 65vh;
+    margin-left: 50px;
+    text-transform: capitalize;
+}

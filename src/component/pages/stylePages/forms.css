@@ -1,0 +1,42 @@
+input[type=text] {
+    padding:10px;
+    border:0;
+    width: 200%;
+    box-shadow:0 0 15px 10px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+}   
+
+.rounded-input {
+    padding:10px;
+    border-radius:10px;
+}
+
+.border-customized-input {
+    border: 2px solid #eee;
+ }
+
+.border-removed-input {
+    border: 0;
+}
+
+label {
+    float:left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c87c9;
+}
+
+.contentEdit{
+    clear:both; 
+    text-align:right;
+    padding: 5px;
+}
+
+.mainForm{
+    float: left;
+}
